@@ -16,13 +16,13 @@ public class Main {
     }
 
     public static boolean visualizar1(String u) {
-        Auxiliares obx1 = new Auxiliares(u);
+        Auxiliares obx1 =  Auxiliares.getInstance();
         System.out.println("Conectando a " + obx1.IP + ", con el usuario " + u);
         return obx1.con();
     }
 
     public static boolean visualizar2() {
-        Auxiliares obx2 = new Auxiliares();
+        Auxiliares obx2 =  Auxiliares.getInstance();
         System.out.println("Conectando a " + obx2.IP + ", con el usuario " + obx2.usuario);
         return obx2.con();
     }
