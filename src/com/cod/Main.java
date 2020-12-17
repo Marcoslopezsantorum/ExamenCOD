@@ -16,6 +16,11 @@ public class Main {
     }
 
     public static boolean visualizar1(String u) {
+        /**
+         * JavaDoc
+         * Apruebame
+         */
+
         Auxiliares obx1 =  Auxiliares.getInstance();
         System.out.println("Conectando a " + obx1.IP + ", con el usuario " + u);
         return obx1.con();
