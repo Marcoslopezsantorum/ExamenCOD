@@ -12,7 +12,7 @@ public class Main {
         } else {
             System.out.println("Fallo");
         }
-        ;
+
     }
 
     public static boolean visualizar1(String u) {
